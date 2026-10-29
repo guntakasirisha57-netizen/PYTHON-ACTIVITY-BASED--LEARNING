@@ -118,10 +118,15 @@ Enter units for month: 120
 Enter units for month: 250
 
 Month 1 Bill: Rs. 198.0
+
 Month 2 Bill: Rs. 303.0
+
 Month 3 Bill: Rs. 817.5
+
 Month 2 : Unusual Increase
+
 Month 3 : Unusual Increase
+
 
 #8. Conclusion
 The Python program calculates electricity bills using progressive slabs, fixed charges, surcharges, and rebates. It compares bills across three months and identifies unusual increases using conditional statements and loops.
