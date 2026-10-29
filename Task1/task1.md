@@ -89,6 +89,7 @@ else:
 
 
 #8.conclusion
+
 The program checks scholarship eligibility, ranks eligible students based on aggregate marks, and resolves ties using attendance. It uses simple Python conditions, lists, and sorting.
               
 
