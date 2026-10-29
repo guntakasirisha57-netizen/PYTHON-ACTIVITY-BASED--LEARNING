@@ -83,7 +83,9 @@ else:
  #7.sample output
 --- Scholarship Results ---
 1 Ravi Aggregate: 90.0 Attendance: 90.0 %
-2 Sita Aggregate: 80.0 Attendance: 85.0 %
+
+2 Sita Aggregate: 80.0 Attendance: 85.0 
+
 
 #8.conclusion
 The program checks scholarship eligibility, ranks eligible students based on aggregate marks, and resolves ties using attendance. It uses simple Python conditions, lists, and sorting.
