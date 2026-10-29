@@ -22,7 +22,7 @@ To calculate hospital bills by adding consultation, diagnostic, and treatment ch
 8. Display the bill details.
 9. Stop.
 
-```mermaidn
+```mermaid
 
 flowchart TD
     A([Start]) --> B[/Input name, age and charges/]
