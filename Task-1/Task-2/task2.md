@@ -26,6 +26,7 @@ These are sample rates for the assignment, not official electricity tariffs.
 10. Stop.
  ```mermaid   
 4. Flowchart
+flowchart td
 
 
     A([Start]) --> B[/Enter units for 3 months/]
