@@ -1,4 +1,5 @@
 #1. Problem Statement
+
 To develop a Python program that selects eligible students for scholarships based on aggregate marks, subject-wise minimum marks, attendance, and family income. Eligible students are ranked by aggregate marks, and ties are resolved using attendance.
 
 #2. Assumptions
@@ -81,8 +82,8 @@ else:
               "Attendance:", s[2], "%")
 
  #7.sample output
---- Scholarship Results ---
-1 Ravi Aggregate: 90.0 Attendance: 90.0 %
+ 
+ 1 Ravi Aggregate: 90.0 Attendance: 90.0 %
 
 2 Sita Aggregate: 80.0 Attendance: 85.0 
 
