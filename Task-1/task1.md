@@ -112,6 +112,7 @@ else:
     print("Patient Category:", category)
 
 #7.sample output
+
 Enter patient name: Ravi
 Enter age: 65
 Consultation charge: 200
