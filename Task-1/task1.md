@@ -71,7 +71,7 @@ ELSE
     END IF
 
     PRINT total, concession, final_bill, category
-END IF
+
 
 STOP
 #6.python source code
