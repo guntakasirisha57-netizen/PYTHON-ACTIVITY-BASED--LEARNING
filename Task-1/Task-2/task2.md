@@ -24,8 +24,9 @@ These are sample rates for the assignment, not official electricity tariffs.
 8. If the bill increases by more than 20%, display an unusual increase message.
 9. Display the monthly bills.
 10. Stop.
+ ```mermaid   
 4. Flowchart
-   ```mermaid
+
 
     A([Start]) --> B[/Enter units for 3 months/]
     B --> C{Units valid?}
