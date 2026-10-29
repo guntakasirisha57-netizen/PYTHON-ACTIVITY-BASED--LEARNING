@@ -25,8 +25,7 @@ These are sample rates for the assignment, not official electricity tariffs.
 9. Display the monthly bills.
 10. Stop.
  ```mermaid   
-4. Flowchart
-flowchart td
+flowchart TD
 
 
     A([Start]) --> B[/Enter units for 3 months/]
@@ -43,7 +42,7 @@ flowchart td
     K -- No --> M[/Print Normal Increase/]
     L --> N([Stop])
     M --> N
-    ```
+```
   #5. pseudocode
   
 INPUT units for 3 months
