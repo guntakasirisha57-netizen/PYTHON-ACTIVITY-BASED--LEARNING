@@ -1,6 +1,7 @@
 
 
-#1. Problem Statement
+#1.Problem Statement
+
 To develop a Python program to calculate a patient's hospital bill by adding consultation, diagnostic, and treatment charges. Apply conditional concessions based on the patient's age, validate the billing details, and classify the patient according to the final bill amount
 
 #2. Assumptions
@@ -12,7 +13,7 @@ To develop a Python program to calculate a patient's hospital bill by adding con
 6. A bill from ₹1,001 to ₹5,000 is classified as Medium Payment.
 7. A bill above ₹5,000 is classified as High Payment.
 
-  ## Algorithm
+  #3. Algorithm
 1. Start.
 2. Read patient name, age, and hospital charges.
 3. Check whether age and charges are valid.
