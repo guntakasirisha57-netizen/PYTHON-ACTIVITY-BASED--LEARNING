@@ -76,18 +76,14 @@ ELSE
             PRINT "Normal Increase"
         END IF
     END FOR
-END IF
 
-STOP
 #6.python source code
 
 units = []
 bills = []
-
 for i in range(3):
     u = int(input("Enter units for month: "))
     units.append(u)
-
 if any(u < 0 for u in units):
     print("Invalid units")
 else:
@@ -99,7 +95,7 @@ else:
         else:
             energy = 500 + (u - 200) * 5
 
-        surcharge = energy * 0.05
+       surcharge = energy * 0.05
         bill = energy + 50 + surcharge - 20
         bills.append(bill)
 
@@ -124,7 +120,6 @@ Enter units for month: 250
 Month 1 Bill: Rs. 198.0
 Month 2 Bill: Rs. 303.0
 Month 3 Bill: Rs. 817.5
-
 Month 2 : Unusual Increase
 Month 3 : Unusual Increase
 
