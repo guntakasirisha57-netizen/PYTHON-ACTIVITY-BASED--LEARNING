@@ -21,21 +21,22 @@ To develop a Python program to calculate an employee's gross salary using basic 
 7. Stop.
 
  ```mermaid
-
 flowchart TD
-    A([Start]) --> B[/Read Basic, Allowances, Overtime, Incentives/]
+    A([Start]) --> B[/Read Basic Pay, Allowances, Overtime, Incentives/]
     B --> C[Calculate Gross Salary]
     C --> D{Gross <= 10000?}
-    D -- Yes --> E[Deduction = Gross * 5%]
+    D -- Yes --> E[Deduction = Gross * 5 / 100]
     D -- No --> F{Gross <= 20000?}
-    F -- Yes --> G[Deduction = 500 + (Gross-10000)*10%]
-    F -- No --> H[Deduction = 1500 + (Gross-20000)*15%]
-    E --> I[Net = Gross - Deduction]
+    F -- Yes --> G[Deduction = 500 + Gross excess * 10 / 100]
+    F -- No --> H[Deduction = 1500 + Gross excess * 15 / 100]
+    E --> I[Net Salary = Gross - Deduction]
     G --> I
     H --> I
     I --> J[/Display Salary Statement/]
     J --> K([Stop])
 ```
+
+
 
 
 #5.pseudo code
