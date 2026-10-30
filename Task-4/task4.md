@@ -37,6 +37,7 @@ flowchart TD
     J --> K([Stop])
 ```
 
+
 #5.pseudo code
 START
 INPUT basic, allowances, overtime, incentives
