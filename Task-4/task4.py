@@ -1,19 +1,23 @@
 #python source code
 
-START
-INPUT basic, allowances, overtime, incentives
+basic = float(input("Enter basic salary: "))
+allowances = float(input("Enter allowances: "))
+overtime = float(input("Enter overtime: "))
+incentives = float(input("Enter incentives: "))
 
 gross = basic + allowances + overtime + incentives
 
-IF gross <= 10000
+if gross <= 10000:
     deduction = gross * 0.05
-ELSE IF gross <= 20000
-    deduction = 500 + (gross-10000) * 0.10
-ELSE
-    deduction = 1500 + (gross-20000) * 0.15
-END IF
+
+elif gross <= 20000:
+    deduction = 500 + (gross - 10000) * 0.10
+
+else:
+    deduction = 1500 + (gross - 20000) * 0.15
 
 net = gross - deduction
 
-PRINT gross, deduction, net
-STOP
+print("Gross Salary:", gross)
+print("Deduction:", deduction)
+print("Net Salary:", net)
